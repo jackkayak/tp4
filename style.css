@@ -1,0 +1,17 @@
+div {
+  display: inline-block; 
+  float: left;
+  width: 100vw;
+  background-color: #ccc;
+  padding: 1vw;
+  column-count: 3;
+}
+
+
+#equipment {
+  font-color: red;
+  
+  
+}
+
+
