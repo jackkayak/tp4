@@ -1,10 +1,9 @@
 div {
   display: inline-block; 
   float: left;
-  width: 100vw;
-  background-color: #ccc;
-  padding: 1vw;
-  column-count: 3;
+  width: 50vw;
+  background-color: red;
+  column-count: 5;
 }
 
 
