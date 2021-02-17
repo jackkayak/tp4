@@ -1,16 +1,23 @@
 div {
-  display: inline-block; 
-  float: left;
-  width: 50vw;
-  background-color: red;
-  column-count: 5;
+ width: 33%;
 }
 
 
-#equipment {
-  font-color: red;
-  
+#column1 {
+  background-color: #FF7F50;
   
 }
+
+#column2 {
+  background-color: #8FBC8F;
+}
+
+#column3 {
+  background-color: #B0C4DE;
+ 
+}
+  
+  
+
 
 
