@@ -1,6 +1,57 @@
-div {
- width: 33%;
+
+* {
+  box-sizing: border-box;
 }
+
+/* not sure whether this works for mobile */ 
+
+@media screen and (max-width: 575px) {
+  
+  h4 {
+    text-color: #B22222;
+  }
+  
+  div {
+    background-color: black;
+  }
+  
+}
+
+
+img {
+  height: 500px;
+  width: 800px;
+  display: block;
+    
+}
+
+
+/* below is desktop screen */
+
+@media screen and (min-width: 576px) {
+  
+  h1 {
+    text-color: #F5F5DC;
+  }
+  
+  h4 {
+    color: black;
+  }
+    
+  
+}
+
+@media (orientation: landscape) {
+  
+  div {
+    display: inline-block;
+    float: left;
+    width: calc(100vw/3 - 1vw);
+    padding: 1vw;
+  }
+}
+  
+
 
 
 #column1 {
