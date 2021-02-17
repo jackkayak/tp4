@@ -18,7 +18,7 @@
 }
 
 
-img {
+.img-fluid {
   height: 500px;
   width: 800px;
   display: block;
@@ -41,6 +41,12 @@ img {
   
 }
 
+@media (orientation: portrait) {
+  div {
+    width: 100vw;
+  }
+}
+
 @media (orientation: landscape) {
   
   div {
@@ -52,7 +58,7 @@ img {
 }
   
 
-
+/* these are ingredients, directions, and equipment */
 
 #column1 {
   background-color: #FF7F50;
