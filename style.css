@@ -1,44 +1,33 @@
-
 * {
   box-sizing: border-box;
 }
 
-/* not sure whether this works for mobile */ 
+/* not sure whether this works for mobile */
 
 @media screen and (max-width: 575px) {
-  
   h4 {
     text-color: #B22222;
   }
-  
   div {
     background-color: black;
   }
-  
 }
 
-
-.img-fluid {
+.container {
   height: 500px;
   width: 800px;
   display: block;
-    
 }
-
 
 /* below is desktop screen */
 
 @media screen and (min-width: 576px) {
-  
   h1 {
     text-color: #F5F5DC;
   }
-  
   h4 {
     color: black;
   }
-    
-  
 }
 
 @media (orientation: portrait) {
@@ -48,7 +37,6 @@
 }
 
 @media (orientation: landscape) {
-  
   div {
     display: inline-block;
     float: left;
@@ -56,13 +44,11 @@
     padding: 1vw;
   }
 }
-  
 
 /* these are ingredients, directions, and equipment */
 
 #column1 {
   background-color: #FF7F50;
-  
 }
 
 #column2 {
@@ -71,10 +57,4 @@
 
 #column3 {
   background-color: #B0C4DE;
- 
 }
-  
-  
-
-
-
