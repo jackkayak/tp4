@@ -2,6 +2,29 @@
   box-sizing: border-box;
 }
 
+
+/* these are ingredients, directions, and equipment */
+
+#column1 {
+  background-color: #FF7F50;
+}
+
+#column2 {
+  background-color: #8FBC8F;
+}
+
+#column3 {
+  background-color: #B0C4DE;
+}
+
+.img-fluid {
+  height: 500px;
+  width: 800px;
+  display: block;
+}
+
+
+
 /* not sure whether this works for mobile */
 
 @media screen and (max-width: 575px) {
@@ -11,12 +34,6 @@
   div {
     background-color: black;
   }
-}
-
-.container {
-  height: 500px;
-  width: 800px;
-  display: block;
 }
 
 /* below is desktop screen */
@@ -43,18 +60,4 @@
     width: calc(100vw/3 - 1vw);
     padding: 1vw;
   }
-}
-
-/* these are ingredients, directions, and equipment */
-
-#column1 {
-  background-color: #FF7F50;
-}
-
-#column2 {
-  background-color: #8FBC8F;
-}
-
-#column3 {
-  background-color: #B0C4DE;
 }
